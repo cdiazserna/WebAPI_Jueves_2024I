@@ -9,6 +9,7 @@ namespace WebAPI.Domain.Interfaces
 
         Task<Country> CreateCountryAsync(Country country);
 
+
         Task<Country> GetCountryByIdAsync(Guid id);
 
         Task<Country> EditCountryAsync(Country country);
