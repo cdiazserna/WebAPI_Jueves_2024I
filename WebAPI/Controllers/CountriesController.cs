@@ -85,7 +85,7 @@ namespace WebAPI.Controllers
 
             if (deletedCountry == null) return NotFound();
 
-            return Ok(deletedCountry);
+            return Ok("Borrado satisfactoriamente");
 
         }
     } 
